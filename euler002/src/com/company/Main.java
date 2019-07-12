@@ -16,7 +16,7 @@ public class Main {
             int num = in.nextInt();
 
             System.out.println("The sum of all the even members of the Fibonacci sequence that precedes " + num + " is: " + sumOfEvenFibonaccis(num));
-            System.out.print("Input any key to go again, or input \"Exit\" to leave: ");
+            System.out.print("\nInput any key to go again or input \"Exit\" to leave: ");
             String endOrNah = in.next();
             if (endOrNah.equalsIgnoreCase("Exit")) {
                 end = true;
