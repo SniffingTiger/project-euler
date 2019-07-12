@@ -2,14 +2,18 @@ package com.company;
 
 import java.util.Scanner;
 
+// TODO: Add unit testing
+
 public class Main {
 
     public static void main(String[] args) {
-        boolean end = false;
+        boolean end = false; // Controls the application while loop
 
+        // Title message
         System.out.println("This console app prints out the sum of the even numbers in the Fibonacci sequences that precedes any given number.");
 
-        while (end != true) {
+        // Program loop
+        while (!end) {
             System.out.print("\nEnter any number here: ");
 
             Scanner in = new Scanner(System.in);
@@ -24,6 +28,7 @@ public class Main {
         }
     }
 
+    // Returns Int sum of all the even numbers in the Fibonacci sequence preceding the number passed into the method
     private static int sumOfEvenFibonaccis(int num) {
         int sumOfEvens = 0;
         int previousFibonacci = 1;
