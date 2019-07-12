@@ -2,9 +2,6 @@ package com.company;
 
 import java.util.Scanner;
 
-//TODO: Create github repo
-//TODO: merge with master
-
 public class Main {
 
     public static void main(String[] args) {
