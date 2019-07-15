@@ -2,8 +2,6 @@ package com.company;
 
 import java.util.Scanner;
 
-// TODO: Add unit testing
-
 public class Main {
 
     public static void main(String[] args) {
@@ -29,7 +27,7 @@ public class Main {
     }
 
     // Returns Int sum of all the even numbers in the Fibonacci sequence preceding the number passed into the method
-    private static int sumOfEvenFibonaccis(int num) {
+    public static int sumOfEvenFibonaccis(int num) {
         int sumOfEvens = 0;
         int previousFibonacci = 1;
         for (int i = 2; i < num; ) {
