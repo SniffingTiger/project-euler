@@ -1,7 +1,7 @@
 ---
 name: Project Euler problem
 about: Issue template to make creating new Project Euler issues easier.
-title: ''
+title: xxx - insert problem title here
 labels: ''
 assignees: milanmayr
 
