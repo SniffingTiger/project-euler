@@ -1,7 +1,10 @@
 package main
 
 func main () {
-	var number int = 600851475143
+	print(largestPrimeFactor(600851475143))
+}
+
+func largestPrimeFactor(number int) int  {
 	workingNumber := number
 	var largestPrimeFactor int
 
@@ -17,5 +20,5 @@ func main () {
 		largestPrimeFactor = workingNumber
 	}
 
-	print(largestPrimeFactor)
+	return largestPrimeFactor
 }
